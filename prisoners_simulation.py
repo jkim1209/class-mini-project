@@ -1,4 +1,3 @@
-
 import random
 
 def play_random(trials=100000):
@@ -16,7 +15,6 @@ def play_random(trials=100000):
                     found = True
                     break
 
-         
 def play_optimal(trials=100000):
     pardoned = 0
     in_drawer = list(range(100))
