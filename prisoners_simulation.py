@@ -50,18 +50,14 @@ def play_random(trials=100_000):
     # 최종 성공률(%) 반환
     return pardoned / trials * 100
 
-<<<<<<< HEAD
-def play_optimal(trials=100000):
-=======
 # ==============================
 # [파트 3] 최적 전략(사이클 추적) 함수 담당
 # - 각 죄수가 자기 번호 상자부터 시작해서
 #   상자 내부 번호 따라 최대 50번 이동
 # - 100명 모두 성공하면 성공 카운트
 # ==============================
-def play_optimal(trials=100_000):
+def play_optimal(trials=100000):
     # 전체 성공(모두 탈출) 횟수
->>>>>>> upstream/main
     pardoned = 0
     # 0~99번 상자 번호 리스트
     in_drawer = list(range(100))
